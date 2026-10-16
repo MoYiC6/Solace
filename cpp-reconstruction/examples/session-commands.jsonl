@@ -1,0 +1,12 @@
+{"op":"load","file":"lifecycle.lua"}
+{"op":"list"}
+{"op":"tick","time":0}
+{"op":"tick","time":0.5}
+{"op":"dispatch","queue":"present","args":[]}
+{"op":"dispatch","queue":"frame_stage","args":[5]}
+{"op":"dispatch","queue":"input","args":[65,1,0]}
+{"op":"dispatch","queue":"menu_toggled","args":[true]}
+{"op":"reload","id":1}
+{"op":"tick","time":1}
+{"op":"unload","id":2}
+{"op":"close"}

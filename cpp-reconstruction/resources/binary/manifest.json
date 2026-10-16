@@ -1,0 +1,2737 @@
+{
+  "target": "Solace.dll",
+  "target_sha256": "8e60e1071acd82b08dfd2bbc41b1155e10cfd113075f0ff40ed6372c2f5f232b",
+  "total_assets": 31,
+  "total_bytes": 2743833,
+  "formats": {
+    "PNG": 26,
+    "TTF": 5
+  },
+  "counts": {
+    "png": 26,
+    "ttf": 5
+  },
+  "script_sha256": "05fffe71651118140d6aa7fa7a6fe2ff23326016bca7a2c3ed8138157c5662ae",
+  "dependencies": {
+    "python": "3.13.15",
+    "fontTools": "4.67.0",
+    "Pillow": "12.3.0",
+    "FreeType": "2.14.3"
+  },
+  "assets": [
+    {
+      "path": "png_0046C1C0.png",
+      "evidence_id": "binary_png_0046C1C0",
+      "kind": "png",
+      "section": ".rdata",
+      "template": false,
+      "encoding": "binary",
+      "length": 10926,
+      "file_offset": "0x0046c1c0",
+      "rva": "0x0046cfc0",
+      "file_end_exclusive": "0x0046ec6e",
+      "sha256": "2a793f1b65c5bb9adf50d4743b3974632fc779fcd08a90ecb75642deced80213",
+      "validation": {
+        "width": 128,
+        "height": 128,
+        "mode": "RGBA",
+        "frames": 1,
+        "decoder": "Pillow",
+        "decoded_pixel_sha256": "222e9195d981719b85f27fb78c84fb29f151ecf480b51c79d53815e26017d6bc",
+        "chunks": [
+          {
+            "type": "IHDR",
+            "length": 13,
+            "crc32": "0xc33e61cb",
+            "relative_offset": 8
+          },
+          {
+            "type": "IDAT",
+            "length": 10869,
+            "crc32": "0x94b31bcd",
+            "relative_offset": 33
+          },
+          {
+            "type": "IEND",
+            "length": 0,
+            "crc32": "0xae426082",
+            "relative_offset": 10914
+          }
+        ],
+        "all_chunk_crc32_valid": true,
+        "boundary": "through zero-length IEND including CRC"
+      }
+    },
+    {
+      "path": "png_0046EC70.png",
+      "evidence_id": "binary_png_0046EC70",
+      "kind": "png",
+      "section": ".rdata",
+      "template": false,
+      "encoding": "binary",
+      "length": 2085,
+      "file_offset": "0x0046ec70",
+      "rva": "0x0046fa70",
+      "file_end_exclusive": "0x0046f495",
+      "sha256": "8df2b99a40b3d5be0c0436aaf8f367e4969eec4896ee9fe2af92ded18df39404",
+      "validation": {
+        "width": 39,
+        "height": 41,
+        "mode": "RGBA",
+        "frames": 1,
+        "decoder": "Pillow",
+        "decoded_pixel_sha256": "9a03eb5c1466d8474c058fc1c7342a18cb1d65e27f796fc8fdc4d1dd743a20cc",
+        "chunks": [
+          {
+            "type": "IHDR",
+            "length": 13,
+            "crc32": "0xb6a93045",
+            "relative_offset": 8
+          },
+          {
+            "type": "IDAT",
+            "length": 2028,
+            "crc32": "0xe3db74e2",
+            "relative_offset": 33
+          },
+          {
+            "type": "IEND",
+            "length": 0,
+            "crc32": "0xae426082",
+            "relative_offset": 2073
+          }
+        ],
+        "all_chunk_crc32_valid": true,
+        "boundary": "through zero-length IEND including CRC"
+      }
+    },
+    {
+      "path": "png_0046F4A0.png",
+      "evidence_id": "binary_png_0046F4A0",
+      "kind": "png",
+      "section": ".rdata",
+      "template": false,
+      "encoding": "binary",
+      "length": 4033,
+      "file_offset": "0x0046f4a0",
+      "rva": "0x004702a0",
+      "file_end_exclusive": "0x00470461",
+      "sha256": "01067d23dfe5aae2bf91a63e3717d58f54e58c8070b5c7df651a96a3d445ddae",
+      "validation": {
+        "width": 91,
+        "height": 91,
+        "mode": "RGBA",
+        "frames": 1,
+        "decoder": "Pillow",
+        "decoded_pixel_sha256": "59a5e7660947835554d8999d275deddc0564389a616865d1f3288e75a364cf0f",
+        "chunks": [
+          {
+            "type": "IHDR",
+            "length": 13,
+            "crc32": "0x1c36f999",
+            "relative_offset": 8
+          },
+          {
+            "type": "IDAT",
+            "length": 3976,
+            "crc32": "0xfa1aade8",
+            "relative_offset": 33
+          },
+          {
+            "type": "IEND",
+            "length": 0,
+            "crc32": "0xae426082",
+            "relative_offset": 4021
+          }
+        ],
+        "all_chunk_crc32_valid": true,
+        "boundary": "through zero-length IEND including CRC"
+      }
+    },
+    {
+      "path": "png_00470470.png",
+      "evidence_id": "binary_png_00470470",
+      "kind": "png",
+      "section": ".rdata",
+      "template": false,
+      "encoding": "binary",
+      "length": 2570,
+      "file_offset": "0x00470470",
+      "rva": "0x00471270",
+      "file_end_exclusive": "0x00470e7a",
+      "sha256": "875dbca92ffd474155e192c9a3be974c0d75e7748df5524ed61d6c397b62ecb4",
+      "validation": {
+        "width": 39,
+        "height": 41,
+        "mode": "RGBA",
+        "frames": 1,
+        "decoder": "Pillow",
+        "decoded_pixel_sha256": "82072fbc388406dffa577ad0a3d334e3f75372e81818dbd3fd81625ce95769ec",
+        "chunks": [
+          {
+            "type": "IHDR",
+            "length": 13,
+            "crc32": "0xb6a93045",
+            "relative_offset": 8
+          },
+          {
+            "type": "IDAT",
+            "length": 2513,
+            "crc32": "0xad7795ff",
+            "relative_offset": 33
+          },
+          {
+            "type": "IEND",
+            "length": 0,
+            "crc32": "0xae426082",
+            "relative_offset": 2558
+          }
+        ],
+        "all_chunk_crc32_valid": true,
+        "boundary": "through zero-length IEND including CRC"
+      }
+    },
+    {
+      "path": "png_00470E80.png",
+      "evidence_id": "binary_png_00470E80",
+      "kind": "png",
+      "section": ".rdata",
+      "template": false,
+      "encoding": "binary",
+      "length": 1971,
+      "file_offset": "0x00470e80",
+      "rva": "0x00471c80",
+      "file_end_exclusive": "0x00471633",
+      "sha256": "57a56a743231a727aa27e9bb08ab0d28f1b48e92403e4ccb3535356c660f46fe",
+      "validation": {
+        "width": 260,
+        "height": 43,
+        "mode": "RGBA",
+        "frames": 1,
+        "decoder": "Pillow",
+        "decoded_pixel_sha256": "605354b3fbada3ff3807590dfcb8bec685daa4ba2979eac53e24528721946696",
+        "chunks": [
+          {
+            "type": "IHDR",
+            "length": 13,
+            "crc32": "0x9e85f65d",
+            "relative_offset": 8
+          },
+          {
+            "type": "IDAT",
+            "length": 1914,
+            "crc32": "0x22ae9581",
+            "relative_offset": 33
+          },
+          {
+            "type": "IEND",
+            "length": 0,
+            "crc32": "0xae426082",
+            "relative_offset": 1959
+          }
+        ],
+        "all_chunk_crc32_valid": true,
+        "boundary": "through zero-length IEND including CRC"
+      }
+    },
+    {
+      "path": "png_00471640.png",
+      "evidence_id": "binary_png_00471640",
+      "kind": "png",
+      "section": ".rdata",
+      "template": false,
+      "encoding": "binary",
+      "length": 973,
+      "file_offset": "0x00471640",
+      "rva": "0x00472440",
+      "file_end_exclusive": "0x00471a0d",
+      "sha256": "255f19544409758d340d2b7c02c669fd48e9c612fa63ed081c5c9d7682a705a7",
+      "validation": {
+        "width": 55,
+        "height": 55,
+        "mode": "RGBA",
+        "frames": 1,
+        "decoder": "Pillow",
+        "decoded_pixel_sha256": "bbc98108b06eebc795df64fc409e7fb190d47622739fdeb65065b91da05b7c6b",
+        "chunks": [
+          {
+            "type": "IHDR",
+            "length": 13,
+            "crc32": "0xa8dbd246",
+            "relative_offset": 8
+          },
+          {
+            "type": "IDAT",
+            "length": 916,
+            "crc32": "0xf54c4853",
+            "relative_offset": 33
+          },
+          {
+            "type": "IEND",
+            "length": 0,
+            "crc32": "0xae426082",
+            "relative_offset": 961
+          }
+        ],
+        "all_chunk_crc32_valid": true,
+        "boundary": "through zero-length IEND including CRC"
+      }
+    },
+    {
+      "path": "png_00471A10.png",
+      "evidence_id": "binary_png_00471A10",
+      "kind": "png",
+      "section": ".rdata",
+      "template": false,
+      "encoding": "binary",
+      "length": 2222,
+      "file_offset": "0x00471a10",
+      "rva": "0x00472810",
+      "file_end_exclusive": "0x004722be",
+      "sha256": "5bda793ebc9e389d96f16b1bc235dd0f79ccf2ef9b279225dd136e13f8a2565f",
+      "validation": {
+        "width": 339,
+        "height": 43,
+        "mode": "RGBA",
+        "frames": 1,
+        "decoder": "Pillow",
+        "decoded_pixel_sha256": "00b04c87ff57d3f54ab92edd80cf652bac8044d7aadc019074819f7395244f05",
+        "chunks": [
+          {
+            "type": "IHDR",
+            "length": 13,
+            "crc32": "0xc54d6b6c",
+            "relative_offset": 8
+          },
+          {
+            "type": "IDAT",
+            "length": 2165,
+            "crc32": "0x3419e99b",
+            "relative_offset": 33
+          },
+          {
+            "type": "IEND",
+            "length": 0,
+            "crc32": "0xae426082",
+            "relative_offset": 2210
+          }
+        ],
+        "all_chunk_crc32_valid": true,
+        "boundary": "through zero-length IEND including CRC"
+      }
+    },
+    {
+      "path": "png_004722C0.png",
+      "evidence_id": "binary_png_004722C0",
+      "kind": "png",
+      "section": ".rdata",
+      "template": false,
+      "encoding": "binary",
+      "length": 10893,
+      "file_offset": "0x004722c0",
+      "rva": "0x004730c0",
+      "file_end_exclusive": "0x00474d4d",
+      "sha256": "90c04a2749797c0da00a5459d04bca69c2164920200794adc101b6de2a2516df",
+      "validation": {
+        "width": 128,
+        "height": 128,
+        "mode": "RGBA",
+        "frames": 1,
+        "decoder": "Pillow",
+        "decoded_pixel_sha256": "18de10c44f2c716133f449bc04a60d0cc2ff12b21f379980f3f3ea14341814e1",
+        "chunks": [
+          {
+            "type": "IHDR",
+            "length": 13,
+            "crc32": "0xc33e61cb",
+            "relative_offset": 8
+          },
+          {
+            "type": "pHYs",
+            "length": 9,
+            "crc32": "0xc76fa864",
+            "relative_offset": 33
+          },
+          {
+            "type": "tEXt",
+            "length": 25,
+            "crc32": "0x9bee3c1a",
+            "relative_offset": 54
+          },
+          {
+            "type": "IDAT",
+            "length": 8192,
+            "crc32": "0x2cd3c141",
+            "relative_offset": 91
+          },
+          {
+            "type": "IDAT",
+            "length": 2574,
+            "crc32": "0xee3cd852",
+            "relative_offset": 8295
+          },
+          {
+            "type": "IEND",
+            "length": 0,
+            "crc32": "0xae426082",
+            "relative_offset": 10881
+          }
+        ],
+        "all_chunk_crc32_valid": true,
+        "boundary": "through zero-length IEND including CRC"
+      }
+    },
+    {
+      "path": "png_00474D50.png",
+      "evidence_id": "binary_png_00474D50",
+      "kind": "png",
+      "section": ".rdata",
+      "template": false,
+      "encoding": "binary",
+      "length": 5402,
+      "file_offset": "0x00474d50",
+      "rva": "0x00475b50",
+      "file_end_exclusive": "0x0047626a",
+      "sha256": "170e8f12c6500b151a6533037133302cae4bbdc6ae01fa4215588918d4524665",
+      "validation": {
+        "width": 1000,
+        "height": 100,
+        "mode": "RGBA",
+        "frames": 1,
+        "decoder": "Pillow",
+        "decoded_pixel_sha256": "34865eda131392227f3ccda3a74ed3e41e7790190cffe4a5a75f6a206b961650",
+        "chunks": [
+          {
+            "type": "IHDR",
+            "length": 13,
+            "crc32": "0x15391ada",
+            "relative_offset": 8
+          },
+          {
+            "type": "IDAT",
+            "length": 5345,
+            "crc32": "0xdfab79cc",
+            "relative_offset": 33
+          },
+          {
+            "type": "IEND",
+            "length": 0,
+            "crc32": "0xae426082",
+            "relative_offset": 5390
+          }
+        ],
+        "all_chunk_crc32_valid": true,
+        "boundary": "through zero-length IEND including CRC"
+      }
+    },
+    {
+      "path": "png_00476270.png",
+      "evidence_id": "binary_png_00476270",
+      "kind": "png",
+      "section": ".rdata",
+      "template": false,
+      "encoding": "binary",
+      "length": 12120,
+      "file_offset": "0x00476270",
+      "rva": "0x00477070",
+      "file_end_exclusive": "0x004791c8",
+      "sha256": "a05fae4db806cf88428c799b99c9f4202063ffa6c1ccf007d29cb8cc84ae7e61",
+      "validation": {
+        "width": 616,
+        "height": 133,
+        "mode": "RGBA",
+        "frames": 1,
+        "decoder": "Pillow",
+        "decoded_pixel_sha256": "bfd5adfd83a3acb80b72eeed54b574e096f77a81e14755077a2df03e20ebe217",
+        "chunks": [
+          {
+            "type": "IHDR",
+            "length": 13,
+            "crc32": "0xefaa043c",
+            "relative_offset": 8
+          },
+          {
+            "type": "IDAT",
+            "length": 8192,
+            "crc32": "0x0aa793c2",
+            "relative_offset": 33
+          },
+          {
+            "type": "IDAT",
+            "length": 3859,
+            "crc32": "0xb7ee0b76",
+            "relative_offset": 8237
+          },
+          {
+            "type": "IEND",
+            "length": 0,
+            "crc32": "0xae426082",
+            "relative_offset": 12108
+          }
+        ],
+        "all_chunk_crc32_valid": true,
+        "boundary": "through zero-length IEND including CRC"
+      }
+    },
+    {
+      "path": "png_004791D0.png",
+      "evidence_id": "binary_png_004791D0",
+      "kind": "png",
+      "section": ".rdata",
+      "template": false,
+      "encoding": "binary",
+      "length": 12102,
+      "file_offset": "0x004791d0",
+      "rva": "0x00479fd0",
+      "file_end_exclusive": "0x0047c116",
+      "sha256": "c045fc9e2af9662016fbf073e92f8cec2ec89619427d80e45c34dfed024c3432",
+      "validation": {
+        "width": 616,
+        "height": 133,
+        "mode": "RGBA",
+        "frames": 1,
+        "decoder": "Pillow",
+        "decoded_pixel_sha256": "891bb51a0a8e3cca08e4653c548ea709b7e6d041c87724c9a71a9935d3e2d83a",
+        "chunks": [
+          {
+            "type": "IHDR",
+            "length": 13,
+            "crc32": "0xefaa043c",
+            "relative_offset": 8
+          },
+          {
+            "type": "IDAT",
+            "length": 8192,
+            "crc32": "0xa6fb5ce0",
+            "relative_offset": 33
+          },
+          {
+            "type": "IDAT",
+            "length": 3841,
+            "crc32": "0x0eda49dc",
+            "relative_offset": 8237
+          },
+          {
+            "type": "IEND",
+            "length": 0,
+            "crc32": "0xae426082",
+            "relative_offset": 12090
+          }
+        ],
+        "all_chunk_crc32_valid": true,
+        "boundary": "through zero-length IEND including CRC"
+      }
+    },
+    {
+      "path": "png_0047C120.png",
+      "evidence_id": "binary_png_0047C120",
+      "kind": "png",
+      "section": ".rdata",
+      "template": false,
+      "encoding": "binary",
+      "length": 1302,
+      "file_offset": "0x0047c120",
+      "rva": "0x0047cf20",
+      "file_end_exclusive": "0x0047c636",
+      "sha256": "f31f9d4e84eda9316745965405a236298e3253ca8f4a829642a7742fbe852de7",
+      "validation": {
+        "width": 55,
+        "height": 55,
+        "mode": "RGBA",
+        "frames": 1,
+        "decoder": "Pillow",
+        "decoded_pixel_sha256": "b0c753f5eac8ca4f3f8ce79de60b2048f45c7ba76515e7705da56a3bb29aaba5",
+        "chunks": [
+          {
+            "type": "IHDR",
+            "length": 13,
+            "crc32": "0xa8dbd246",
+            "relative_offset": 8
+          },
+          {
+            "type": "IDAT",
+            "length": 1245,
+            "crc32": "0x41a975c9",
+            "relative_offset": 33
+          },
+          {
+            "type": "IEND",
+            "length": 0,
+            "crc32": "0xae426082",
+            "relative_offset": 1290
+          }
+        ],
+        "all_chunk_crc32_valid": true,
+        "boundary": "through zero-length IEND including CRC"
+      }
+    },
+    {
+      "path": "png_0047C640.png",
+      "evidence_id": "binary_png_0047C640",
+      "kind": "png",
+      "section": ".rdata",
+      "template": false,
+      "encoding": "binary",
+      "length": 375,
+      "file_offset": "0x0047c640",
+      "rva": "0x0047d440",
+      "file_end_exclusive": "0x0047c7b7",
+      "sha256": "6e93c4e1777c829d3e81c31d645dff74145f9fd56edbaf2063eaecfe5c090ecd",
+      "validation": {
+        "width": 55,
+        "height": 55,
+        "mode": "RGBA",
+        "frames": 1,
+        "decoder": "Pillow",
+        "decoded_pixel_sha256": "4847e69b6eedcc5f5fdf9107b1cab322b19ac1c166c6e81ae949f809e4ea1df1",
+        "chunks": [
+          {
+            "type": "IHDR",
+            "length": 13,
+            "crc32": "0xa8dbd246",
+            "relative_offset": 8
+          },
+          {
+            "type": "IDAT",
+            "length": 318,
+            "crc32": "0x4b39be20",
+            "relative_offset": 33
+          },
+          {
+            "type": "IEND",
+            "length": 0,
+            "crc32": "0xae426082",
+            "relative_offset": 363
+          }
+        ],
+        "all_chunk_crc32_valid": true,
+        "boundary": "through zero-length IEND including CRC"
+      }
+    },
+    {
+      "path": "png_0047C7C0.png",
+      "evidence_id": "binary_png_0047C7C0",
+      "kind": "png",
+      "section": ".rdata",
+      "template": false,
+      "encoding": "binary",
+      "length": 302,
+      "file_offset": "0x0047c7c0",
+      "rva": "0x0047d5c0",
+      "file_end_exclusive": "0x0047c8ee",
+      "sha256": "67260bff3d3920c002eb92fc9cee3e87b5ea94f0a3ea486a98fe1f98d1fd8d5a",
+      "validation": {
+        "width": 160,
+        "height": 43,
+        "mode": "RGBA",
+        "frames": 1,
+        "decoder": "Pillow",
+        "decoded_pixel_sha256": "85062e1eb4f7b4dbe5c8c8aa294102f5651d234589271d72df8503397b06c6fd",
+        "chunks": [
+          {
+            "type": "IHDR",
+            "length": 13,
+            "crc32": "0xffb88336",
+            "relative_offset": 8
+          },
+          {
+            "type": "IDAT",
+            "length": 245,
+            "crc32": "0xe7a57017",
+            "relative_offset": 33
+          },
+          {
+            "type": "IEND",
+            "length": 0,
+            "crc32": "0xae426082",
+            "relative_offset": 290
+          }
+        ],
+        "all_chunk_crc32_valid": true,
+        "boundary": "through zero-length IEND including CRC"
+      }
+    },
+    {
+      "path": "png_0047C8F0.png",
+      "evidence_id": "binary_png_0047C8F0",
+      "kind": "png",
+      "section": ".rdata",
+      "template": false,
+      "encoding": "binary",
+      "length": 330,
+      "file_offset": "0x0047c8f0",
+      "rva": "0x0047d6f0",
+      "file_end_exclusive": "0x0047ca3a",
+      "sha256": "c632e2f5bae74a394d07dadd08d11ebeda76096f468835b9acf62ece1cc56ab6",
+      "validation": {
+        "width": 160,
+        "height": 43,
+        "mode": "RGBA",
+        "frames": 1,
+        "decoder": "Pillow",
+        "decoded_pixel_sha256": "761917c4d19cdd40892751d865d5b698bb93f9a9e47b48ffb759f96c2d32e213",
+        "chunks": [
+          {
+            "type": "IHDR",
+            "length": 13,
+            "crc32": "0xffb88336",
+            "relative_offset": 8
+          },
+          {
+            "type": "IDAT",
+            "length": 273,
+            "crc32": "0xf9b34c72",
+            "relative_offset": 33
+          },
+          {
+            "type": "IEND",
+            "length": 0,
+            "crc32": "0xae426082",
+            "relative_offset": 318
+          }
+        ],
+        "all_chunk_crc32_valid": true,
+        "boundary": "through zero-length IEND including CRC"
+      }
+    },
+    {
+      "path": "png_0047CA40.png",
+      "evidence_id": "binary_png_0047CA40",
+      "kind": "png",
+      "section": ".rdata",
+      "template": false,
+      "encoding": "binary",
+      "length": 377,
+      "file_offset": "0x0047ca40",
+      "rva": "0x0047d840",
+      "file_end_exclusive": "0x0047cbb9",
+      "sha256": "ab35423ddc75befca1643e7134d5db8fa272eecbf7a145336490f3f4650d732f",
+      "validation": {
+        "width": 23,
+        "height": 23,
+        "mode": "RGBA",
+        "frames": 1,
+        "decoder": "Pillow",
+        "decoded_pixel_sha256": "2fbdf79e3462e0bc49d79511be4066300a292275a7f00dcb54d346b5608dc0ac",
+        "chunks": [
+          {
+            "type": "IHDR",
+            "length": 13,
+            "crc32": "0xe02ad4a0",
+            "relative_offset": 8
+          },
+          {
+            "type": "IDAT",
+            "length": 320,
+            "crc32": "0xb30e3309",
+            "relative_offset": 33
+          },
+          {
+            "type": "IEND",
+            "length": 0,
+            "crc32": "0xae426082",
+            "relative_offset": 365
+          }
+        ],
+        "all_chunk_crc32_valid": true,
+        "boundary": "through zero-length IEND including CRC"
+      }
+    },
+    {
+      "path": "png_0047CBC0.png",
+      "evidence_id": "binary_png_0047CBC0",
+      "kind": "png",
+      "section": ".rdata",
+      "template": false,
+      "encoding": "binary",
+      "length": 5284,
+      "file_offset": "0x0047cbc0",
+      "rva": "0x0047d9c0",
+      "file_end_exclusive": "0x0047e064",
+      "sha256": "aef96b4771984d18a18a8cf7720cd336dd1d11a68a3aa34cbfa7524d10ffae7b",
+      "validation": {
+        "width": 256,
+        "height": 32,
+        "mode": "RGBA",
+        "frames": 1,
+        "decoder": "Pillow",
+        "decoded_pixel_sha256": "7d664d61deeda76a478986ff617e637b8c1a371c2e064d1f1bdbab366bb160bf",
+        "chunks": [
+          {
+            "type": "IHDR",
+            "length": 13,
+            "crc32": "0xfda9a6e4",
+            "relative_offset": 8
+          },
+          {
+            "type": "IDAT",
+            "length": 5227,
+            "crc32": "0x8d49a89c",
+            "relative_offset": 33
+          },
+          {
+            "type": "IEND",
+            "length": 0,
+            "crc32": "0xae426082",
+            "relative_offset": 5272
+          }
+        ],
+        "all_chunk_crc32_valid": true,
+        "boundary": "through zero-length IEND including CRC"
+      }
+    },
+    {
+      "path": "png_0047E070.png",
+      "evidence_id": "binary_png_0047E070",
+      "kind": "png",
+      "section": ".rdata",
+      "template": false,
+      "encoding": "binary",
+      "length": 930,
+      "file_offset": "0x0047e070",
+      "rva": "0x0047ee70",
+      "file_end_exclusive": "0x0047e412",
+      "sha256": "95dcb563aa5aa33718dd4e137f17b7a136797e7de7c6d3bd426c6dae906640cf",
+      "validation": {
+        "width": 49,
+        "height": 49,
+        "mode": "RGBA",
+        "frames": 1,
+        "decoder": "Pillow",
+        "decoded_pixel_sha256": "88c52f752599cd28ab752a91aa82b2acb9c7bbc019906c6bde192bbfbe15c72b",
+        "chunks": [
+          {
+            "type": "IHDR",
+            "length": 13,
+            "crc32": "0x739c411c",
+            "relative_offset": 8
+          },
+          {
+            "type": "IDAT",
+            "length": 873,
+            "crc32": "0x3a06bbed",
+            "relative_offset": 33
+          },
+          {
+            "type": "IEND",
+            "length": 0,
+            "crc32": "0xae426082",
+            "relative_offset": 918
+          }
+        ],
+        "all_chunk_crc32_valid": true,
+        "boundary": "through zero-length IEND including CRC"
+      }
+    },
+    {
+      "path": "png_0047E420.png",
+      "evidence_id": "binary_png_0047E420",
+      "kind": "png",
+      "section": ".rdata",
+      "template": false,
+      "encoding": "binary",
+      "length": 18098,
+      "file_offset": "0x0047e420",
+      "rva": "0x0047f220",
+      "file_end_exclusive": "0x00482ad2",
+      "sha256": "a6f607b243140df8bdbef632fcf5d39f457628d9b8848c3ea67501d639d009c1",
+      "validation": {
+        "width": 127,
+        "height": 127,
+        "mode": "RGBA",
+        "frames": 1,
+        "decoder": "Pillow",
+        "decoded_pixel_sha256": "89ba093e63f747f8392c9e21c333336ded2d59178716c6c315c5b84cbbd6d5c5",
+        "chunks": [
+          {
+            "type": "IHDR",
+            "length": 13,
+            "crc32": "0xc6bd1d13",
+            "relative_offset": 8
+          },
+          {
+            "type": "IDAT",
+            "length": 8192,
+            "crc32": "0xfb489a5a",
+            "relative_offset": 33
+          },
+          {
+            "type": "IDAT",
+            "length": 8192,
+            "crc32": "0x2a7fcb7a",
+            "relative_offset": 8237
+          },
+          {
+            "type": "IDAT",
+            "length": 1633,
+            "crc32": "0xb970b3bc",
+            "relative_offset": 16441
+          },
+          {
+            "type": "IEND",
+            "length": 0,
+            "crc32": "0xae426082",
+            "relative_offset": 18086
+          }
+        ],
+        "all_chunk_crc32_valid": true,
+        "boundary": "through zero-length IEND including CRC"
+      }
+    },
+    {
+      "path": "png_00482AE0.png",
+      "evidence_id": "binary_png_00482AE0",
+      "kind": "png",
+      "section": ".rdata",
+      "template": false,
+      "encoding": "binary",
+      "length": 21816,
+      "file_offset": "0x00482ae0",
+      "rva": "0x004838e0",
+      "file_end_exclusive": "0x00488018",
+      "sha256": "eed3a5ebee37b6e2e396d7c2e67db0327cea246f59db3944aaf2d3d09873bb36",
+      "validation": {
+        "width": 127,
+        "height": 127,
+        "mode": "RGBA",
+        "frames": 1,
+        "decoder": "Pillow",
+        "decoded_pixel_sha256": "c3896adaa20c9e1140db450cba7a863f5a896a4adbc9c78ca7f75a88d8aab178",
+        "chunks": [
+          {
+            "type": "IHDR",
+            "length": 13,
+            "crc32": "0xc6bd1d13",
+            "relative_offset": 8
+          },
+          {
+            "type": "IDAT",
+            "length": 8192,
+            "crc32": "0x5968cda3",
+            "relative_offset": 33
+          },
+          {
+            "type": "IDAT",
+            "length": 8192,
+            "crc32": "0xcf61b2fe",
+            "relative_offset": 8237
+          },
+          {
+            "type": "IDAT",
+            "length": 5351,
+            "crc32": "0xf2def034",
+            "relative_offset": 16441
+          },
+          {
+            "type": "IEND",
+            "length": 0,
+            "crc32": "0xae426082",
+            "relative_offset": 21804
+          }
+        ],
+        "all_chunk_crc32_valid": true,
+        "boundary": "through zero-length IEND including CRC"
+      }
+    },
+    {
+      "path": "png_00488020.png",
+      "evidence_id": "binary_png_00488020",
+      "kind": "png",
+      "section": ".rdata",
+      "template": false,
+      "encoding": "binary",
+      "length": 2587,
+      "file_offset": "0x00488020",
+      "rva": "0x00488e20",
+      "file_end_exclusive": "0x00488a3b",
+      "sha256": "f22bf0f3db72d5d96204362d775795e88dcd8775c667d01222024163d7697e50",
+      "validation": {
+        "width": 410,
+        "height": 46,
+        "mode": "RGBA",
+        "frames": 1,
+        "decoder": "Pillow",
+        "decoded_pixel_sha256": "5871d43bcbe8ab15d08a4233f01292f0221fc7b1491f3e53b75340295c64c9f0",
+        "chunks": [
+          {
+            "type": "IHDR",
+            "length": 13,
+            "crc32": "0x112adfb4",
+            "relative_offset": 8
+          },
+          {
+            "type": "IDAT",
+            "length": 2530,
+            "crc32": "0xc4daf1fa",
+            "relative_offset": 33
+          },
+          {
+            "type": "IEND",
+            "length": 0,
+            "crc32": "0xae426082",
+            "relative_offset": 2575
+          }
+        ],
+        "all_chunk_crc32_valid": true,
+        "boundary": "through zero-length IEND including CRC"
+      }
+    },
+    {
+      "path": "png_00488A40.png",
+      "evidence_id": "binary_png_00488A40",
+      "kind": "png",
+      "section": ".rdata",
+      "template": false,
+      "encoding": "binary",
+      "length": 921,
+      "file_offset": "0x00488a40",
+      "rva": "0x00489840",
+      "file_end_exclusive": "0x00488dd9",
+      "sha256": "e9de9fb09ef3a5e84a6a987e90abf4e525f59c3ba6e4c1ac159601b4d650860f",
+      "validation": {
+        "width": 221,
+        "height": 63,
+        "mode": "RGBA",
+        "frames": 1,
+        "decoder": "Pillow",
+        "decoded_pixel_sha256": "d666b976cd804090afe99a0f2772a76040ac000b3b3ee1017e1303b4e135e5fe",
+        "chunks": [
+          {
+            "type": "IHDR",
+            "length": 13,
+            "crc32": "0x6448cd93",
+            "relative_offset": 8
+          },
+          {
+            "type": "IDAT",
+            "length": 864,
+            "crc32": "0x396f9b83",
+            "relative_offset": 33
+          },
+          {
+            "type": "IEND",
+            "length": 0,
+            "crc32": "0xae426082",
+            "relative_offset": 909
+          }
+        ],
+        "all_chunk_crc32_valid": true,
+        "boundary": "through zero-length IEND including CRC"
+      }
+    },
+    {
+      "path": "png_00488DE0.png",
+      "evidence_id": "binary_png_00488DE0",
+      "kind": "png",
+      "section": ".rdata",
+      "template": false,
+      "encoding": "binary",
+      "length": 9463,
+      "file_offset": "0x00488de0",
+      "rva": "0x00489be0",
+      "file_end_exclusive": "0x0048b2d7",
+      "sha256": "75d6dec2b09580890b4b33eef4106ecf6038d3fc428c3c29fe0002e84890c963",
+      "validation": {
+        "width": 817,
+        "height": 125,
+        "mode": "RGBA",
+        "frames": 1,
+        "decoder": "Pillow",
+        "decoded_pixel_sha256": "3db57fe13d61ed813ce497eeda95751c2303f3871a296fe4a946cad277b6c0dc",
+        "chunks": [
+          {
+            "type": "IHDR",
+            "length": 13,
+            "crc32": "0x92e4ed0a",
+            "relative_offset": 8
+          },
+          {
+            "type": "IDAT",
+            "length": 8192,
+            "crc32": "0xa398eae2",
+            "relative_offset": 33
+          },
+          {
+            "type": "IDAT",
+            "length": 1202,
+            "crc32": "0x9ecf142c",
+            "relative_offset": 8237
+          },
+          {
+            "type": "IEND",
+            "length": 0,
+            "crc32": "0xae426082",
+            "relative_offset": 9451
+          }
+        ],
+        "all_chunk_crc32_valid": true,
+        "boundary": "through zero-length IEND including CRC"
+      }
+    },
+    {
+      "path": "png_0048B2E0.png",
+      "evidence_id": "binary_png_0048B2E0",
+      "kind": "png",
+      "section": ".rdata",
+      "template": false,
+      "encoding": "binary",
+      "length": 10040,
+      "file_offset": "0x0048b2e0",
+      "rva": "0x0048c0e0",
+      "file_end_exclusive": "0x0048da18",
+      "sha256": "1cd1f5d722ce385b14bffee6133b797056d0b3bd1dc2c9d710b4d4b81ef4a237",
+      "validation": {
+        "width": 817,
+        "height": 125,
+        "mode": "RGBA",
+        "frames": 1,
+        "decoder": "Pillow",
+        "decoded_pixel_sha256": "4ece2655e3bfc26dbe2c25e5f488c0c69e038ed52738c38aaad514c9793bd424",
+        "chunks": [
+          {
+            "type": "IHDR",
+            "length": 13,
+            "crc32": "0x92e4ed0a",
+            "relative_offset": 8
+          },
+          {
+            "type": "IDAT",
+            "length": 8192,
+            "crc32": "0xd984fd52",
+            "relative_offset": 33
+          },
+          {
+            "type": "IDAT",
+            "length": 1779,
+            "crc32": "0xc145466f",
+            "relative_offset": 8237
+          },
+          {
+            "type": "IEND",
+            "length": 0,
+            "crc32": "0xae426082",
+            "relative_offset": 10028
+          }
+        ],
+        "all_chunk_crc32_valid": true,
+        "boundary": "through zero-length IEND including CRC"
+      }
+    },
+    {
+      "path": "png_0048DA20.png",
+      "evidence_id": "binary_png_0048DA20",
+      "kind": "png",
+      "section": ".rdata",
+      "template": false,
+      "encoding": "binary",
+      "length": 1246,
+      "file_offset": "0x0048da20",
+      "rva": "0x0048e820",
+      "file_end_exclusive": "0x0048defe",
+      "sha256": "d1f9487bd1606f0ab4ce6fd43857c1f34598db8edc14ac63a39f6ee515787c1a",
+      "validation": {
+        "width": 56,
+        "height": 53,
+        "mode": "RGBA",
+        "frames": 1,
+        "decoder": "Pillow",
+        "decoded_pixel_sha256": "5b61e3b6a4befdce83c958c55d4538997513e2ab3fbdc53e37c3e59830cea936",
+        "chunks": [
+          {
+            "type": "IHDR",
+            "length": 13,
+            "crc32": "0x141828c0",
+            "relative_offset": 8
+          },
+          {
+            "type": "IDAT",
+            "length": 1189,
+            "crc32": "0x7010b7c4",
+            "relative_offset": 33
+          },
+          {
+            "type": "IEND",
+            "length": 0,
+            "crc32": "0xae426082",
+            "relative_offset": 1234
+          }
+        ],
+        "all_chunk_crc32_valid": true,
+        "boundary": "through zero-length IEND including CRC"
+      }
+    },
+    {
+      "path": "png_004C7870.png",
+      "evidence_id": "binary_png_004C7870",
+      "kind": "png",
+      "section": ".rdata",
+      "template": false,
+      "encoding": "binary",
+      "length": 545085,
+      "file_offset": "0x004c7870",
+      "rva": "0x004c8670",
+      "file_end_exclusive": "0x0054c9ad",
+      "sha256": "1829cc8f35a6154f33953c993d81f4a70f789eec0e53bf7f9927af12aed54f99",
+      "validation": {
+        "width": 400,
+        "height": 889,
+        "mode": "RGB",
+        "frames": 1,
+        "decoder": "Pillow",
+        "decoded_pixel_sha256": "2d42bd8874be0bebe7163c525899320f86e742b6f7ad399723c5de3209363aeb",
+        "chunks": [
+          {
+            "type": "IHDR",
+            "length": 13,
+            "crc32": "0xa909faf8",
+            "relative_offset": 8
+          },
+          {
+            "type": "pHYs",
+            "length": 9,
+            "crc32": "0x84791773",
+            "relative_offset": 33
+          },
+          {
+            "type": "cHRM",
+            "length": 32,
+            "crc32": "0x9cba513c",
+            "relative_offset": 54
+          },
+          {
+            "type": "IDAT",
+            "length": 4096,
+            "crc32": "0x687168cb",
+            "relative_offset": 98
+          },
+          {
+            "type": "IDAT",
+            "length": 4096,
+            "crc32": "0x826d294a",
+            "relative_offset": 4206
+          },
+          {
+            "type": "IDAT",
+            "length": 4096,
+            "crc32": "0x6f0df253",
+            "relative_offset": 8314
+          },
+          {
+            "type": "IDAT",
+            "length": 4096,
+            "crc32": "0xcbcc9216",
+            "relative_offset": 12422
+          },
+          {
+            "type": "IDAT",
+            "length": 4096,
+            "crc32": "0x34c1f7b2",
+            "relative_offset": 16530
+          },
+          {
+            "type": "IDAT",
+            "length": 4096,
+            "crc32": "0x68cb6ec9",
+            "relative_offset": 20638
+          },
+          {
+            "type": "IDAT",
+            "length": 4096,
+            "crc32": "0x5ac930fb",
+            "relative_offset": 24746
+          },
+          {
+            "type": "IDAT",
+            "length": 4096,
+            "crc32": "0x1a29af13",
+            "relative_offset": 28854
+          },
+          {
+            "type": "IDAT",
+            "length": 4096,
+            "crc32": "0x2c452f14",
+            "relative_offset": 32962
+          },
+          {
+            "type": "IDAT",
+            "length": 4096,
+            "crc32": "0x3646abcc",
+            "relative_offset": 37070
+          },
+          {
+            "type": "IDAT",
+            "length": 4096,
+            "crc32": "0x73f85b16",
+            "relative_offset": 41178
+          },
+          {
+            "type": "IDAT",
+            "length": 4096,
+            "crc32": "0x840f9411",
+            "relative_offset": 45286
+          },
+          {
+            "type": "IDAT",
+            "length": 4096,
+            "crc32": "0xb3fc018d",
+            "relative_offset": 49394
+          },
+          {
+            "type": "IDAT",
+            "length": 4096,
+            "crc32": "0xa15d5ff2",
+            "relative_offset": 53502
+          },
+          {
+            "type": "IDAT",
+            "length": 4096,
+            "crc32": "0x69e8fa47",
+            "relative_offset": 57610
+          },
+          {
+            "type": "IDAT",
+            "length": 4096,
+            "crc32": "0xe4077876",
+            "relative_offset": 61718
+          },
+          {
+            "type": "IDAT",
+            "length": 4096,
+            "crc32": "0xd12b5834",
+            "relative_offset": 65826
+          },
+          {
+            "type": "IDAT",
+            "length": 4096,
+            "crc32": "0x039a9a5d",
+            "relative_offset": 69934
+          },
+          {
+            "type": "IDAT",
+            "length": 4096,
+            "crc32": "0x0fb5a748",
+            "relative_offset": 74042
+          },
+          {
+            "type": "IDAT",
+            "length": 4096,
+            "crc32": "0xe710f19e",
+            "relative_offset": 78150
+          },
+          {
+            "type": "IDAT",
+            "length": 4096,
+            "crc32": "0x121ff7e2",
+            "relative_offset": 82258
+          },
+          {
+            "type": "IDAT",
+            "length": 4096,
+            "crc32": "0x547ef150",
+            "relative_offset": 86366
+          },
+          {
+            "type": "IDAT",
+            "length": 4096,
+            "crc32": "0x4db1ecc0",
+            "relative_offset": 90474
+          },
+          {
+            "type": "IDAT",
+            "length": 4096,
+            "crc32": "0x7c5bbfd0",
+            "relative_offset": 94582
+          },
+          {
+            "type": "IDAT",
+            "length": 4096,
+            "crc32": "0x5b17426f",
+            "relative_offset": 98690
+          },
+          {
+            "type": "IDAT",
+            "length": 4096,
+            "crc32": "0xd1623880",
+            "relative_offset": 102798
+          },
+          {
+            "type": "IDAT",
+            "length": 4096,
+            "crc32": "0x43ca71bc",
+            "relative_offset": 106906
+          },
+          {
+            "type": "IDAT",
+            "length": 4096,
+            "crc32": "0xb9a3d9d7",
+            "relative_offset": 111014
+          },
+          {
+            "type": "IDAT",
+            "length": 4096,
+            "crc32": "0x28f45f4a",
+            "relative_offset": 115122
+          },
+          {
+            "type": "IDAT",
+            "length": 4096,
+            "crc32": "0xd0f602e7",
+            "relative_offset": 119230
+          },
+          {
+            "type": "IDAT",
+            "length": 4096,
+            "crc32": "0x303baa37",
+            "relative_offset": 123338
+          },
+          {
+            "type": "IDAT",
+            "length": 4096,
+            "crc32": "0x41473c9a",
+            "relative_offset": 127446
+          },
+          {
+            "type": "IDAT",
+            "length": 4096,
+            "crc32": "0x96762b1d",
+            "relative_offset": 131554
+          },
+          {
+            "type": "IDAT",
+            "length": 4096,
+            "crc32": "0xcec6c0b3",
+            "relative_offset": 135662
+          },
+          {
+            "type": "IDAT",
+            "length": 4096,
+            "crc32": "0xe3f1f4e3",
+            "relative_offset": 139770
+          },
+          {
+            "type": "IDAT",
+            "length": 4096,
+            "crc32": "0x67a4ae50",
+            "relative_offset": 143878
+          },
+          {
+            "type": "IDAT",
+            "length": 4096,
+            "crc32": "0x338c6cd2",
+            "relative_offset": 147986
+          },
+          {
+            "type": "IDAT",
+            "length": 4096,
+            "crc32": "0x1643eee3",
+            "relative_offset": 152094
+          },
+          {
+            "type": "IDAT",
+            "length": 4096,
+            "crc32": "0x23e9d319",
+            "relative_offset": 156202
+          },
+          {
+            "type": "IDAT",
+            "length": 4096,
+            "crc32": "0x006646e4",
+            "relative_offset": 160310
+          },
+          {
+            "type": "IDAT",
+            "length": 4096,
+            "crc32": "0xa546fead",
+            "relative_offset": 164418
+          },
+          {
+            "type": "IDAT",
+            "length": 4096,
+            "crc32": "0xe2b33207",
+            "relative_offset": 168526
+          },
+          {
+            "type": "IDAT",
+            "length": 4096,
+            "crc32": "0x353e5248",
+            "relative_offset": 172634
+          },
+          {
+            "type": "IDAT",
+            "length": 4096,
+            "crc32": "0xdc698c8d",
+            "relative_offset": 176742
+          },
+          {
+            "type": "IDAT",
+            "length": 4096,
+            "crc32": "0x160e70fb",
+            "relative_offset": 180850
+          },
+          {
+            "type": "IDAT",
+            "length": 4096,
+            "crc32": "0x1d612d50",
+            "relative_offset": 184958
+          },
+          {
+            "type": "IDAT",
+            "length": 4096,
+            "crc32": "0x837b8e4a",
+            "relative_offset": 189066
+          },
+          {
+            "type": "IDAT",
+            "length": 4096,
+            "crc32": "0x7e5a9844",
+            "relative_offset": 193174
+          },
+          {
+            "type": "IDAT",
+            "length": 4096,
+            "crc32": "0xd339041f",
+            "relative_offset": 197282
+          },
+          {
+            "type": "IDAT",
+            "length": 4096,
+            "crc32": "0x09d18472",
+            "relative_offset": 201390
+          },
+          {
+            "type": "IDAT",
+            "length": 4096,
+            "crc32": "0x888a9801",
+            "relative_offset": 205498
+          },
+          {
+            "type": "IDAT",
+            "length": 4096,
+            "crc32": "0xf5390dd1",
+            "relative_offset": 209606
+          },
+          {
+            "type": "IDAT",
+            "length": 4096,
+            "crc32": "0x2c68bdf4",
+            "relative_offset": 213714
+          },
+          {
+            "type": "IDAT",
+            "length": 4096,
+            "crc32": "0x853a1527",
+            "relative_offset": 217822
+          },
+          {
+            "type": "IDAT",
+            "length": 4096,
+            "crc32": "0x4820f801",
+            "relative_offset": 221930
+          },
+          {
+            "type": "IDAT",
+            "length": 4096,
+            "crc32": "0x213682ab",
+            "relative_offset": 226038
+          },
+          {
+            "type": "IDAT",
+            "length": 4096,
+            "crc32": "0x4ec82498",
+            "relative_offset": 230146
+          },
+          {
+            "type": "IDAT",
+            "length": 4096,
+            "crc32": "0x3c8e067e",
+            "relative_offset": 234254
+          },
+          {
+            "type": "IDAT",
+            "length": 4096,
+            "crc32": "0xa9b110b0",
+            "relative_offset": 238362
+          },
+          {
+            "type": "IDAT",
+            "length": 4096,
+            "crc32": "0xf5acc32a",
+            "relative_offset": 242470
+          },
+          {
+            "type": "IDAT",
+            "length": 4096,
+            "crc32": "0xdaec369c",
+            "relative_offset": 246578
+          },
+          {
+            "type": "IDAT",
+            "length": 4096,
+            "crc32": "0xde13b0fd",
+            "relative_offset": 250686
+          },
+          {
+            "type": "IDAT",
+            "length": 4096,
+            "crc32": "0x87f01407",
+            "relative_offset": 254794
+          },
+          {
+            "type": "IDAT",
+            "length": 4096,
+            "crc32": "0x3d075eed",
+            "relative_offset": 258902
+          },
+          {
+            "type": "IDAT",
+            "length": 4096,
+            "crc32": "0x5a4043c6",
+            "relative_offset": 263010
+          },
+          {
+            "type": "IDAT",
+            "length": 4096,
+            "crc32": "0x65003c3d",
+            "relative_offset": 267118
+          },
+          {
+            "type": "IDAT",
+            "length": 4096,
+            "crc32": "0x5c4287ca",
+            "relative_offset": 271226
+          },
+          {
+            "type": "IDAT",
+            "length": 4096,
+            "crc32": "0xb26efe46",
+            "relative_offset": 275334
+          },
+          {
+            "type": "IDAT",
+            "length": 4096,
+            "crc32": "0x7fab6694",
+            "relative_offset": 279442
+          },
+          {
+            "type": "IDAT",
+            "length": 4096,
+            "crc32": "0x0128672e",
+            "relative_offset": 283550
+          },
+          {
+            "type": "IDAT",
+            "length": 4096,
+            "crc32": "0x251c29b5",
+            "relative_offset": 287658
+          },
+          {
+            "type": "IDAT",
+            "length": 4096,
+            "crc32": "0x48b38324",
+            "relative_offset": 291766
+          },
+          {
+            "type": "IDAT",
+            "length": 4096,
+            "crc32": "0xde825d6b",
+            "relative_offset": 295874
+          },
+          {
+            "type": "IDAT",
+            "length": 4096,
+            "crc32": "0x5e54b333",
+            "relative_offset": 299982
+          },
+          {
+            "type": "IDAT",
+            "length": 4096,
+            "crc32": "0xb835783a",
+            "relative_offset": 304090
+          },
+          {
+            "type": "IDAT",
+            "length": 4096,
+            "crc32": "0xef1cce6a",
+            "relative_offset": 308198
+          },
+          {
+            "type": "IDAT",
+            "length": 4096,
+            "crc32": "0x3d4257cc",
+            "relative_offset": 312306
+          },
+          {
+            "type": "IDAT",
+            "length": 4096,
+            "crc32": "0xd125f1a4",
+            "relative_offset": 316414
+          },
+          {
+            "type": "IDAT",
+            "length": 4096,
+            "crc32": "0xcb9cd442",
+            "relative_offset": 320522
+          },
+          {
+            "type": "IDAT",
+            "length": 4096,
+            "crc32": "0xa4b4e17b",
+            "relative_offset": 324630
+          },
+          {
+            "type": "IDAT",
+            "length": 4096,
+            "crc32": "0x365a1984",
+            "relative_offset": 328738
+          },
+          {
+            "type": "IDAT",
+            "length": 4096,
+            "crc32": "0xf551ed39",
+            "relative_offset": 332846
+          },
+          {
+            "type": "IDAT",
+            "length": 4096,
+            "crc32": "0xd24db3d5",
+            "relative_offset": 336954
+          },
+          {
+            "type": "IDAT",
+            "length": 4096,
+            "crc32": "0x5da6e063",
+            "relative_offset": 341062
+          },
+          {
+            "type": "IDAT",
+            "length": 4096,
+            "crc32": "0x1a4ab14c",
+            "relative_offset": 345170
+          },
+          {
+            "type": "IDAT",
+            "length": 4096,
+            "crc32": "0x5cbdac41",
+            "relative_offset": 349278
+          },
+          {
+            "type": "IDAT",
+            "length": 4096,
+            "crc32": "0xaf60ca23",
+            "relative_offset": 353386
+          },
+          {
+            "type": "IDAT",
+            "length": 4096,
+            "crc32": "0x7079203d",
+            "relative_offset": 357494
+          },
+          {
+            "type": "IDAT",
+            "length": 4096,
+            "crc32": "0x46274144",
+            "relative_offset": 361602
+          },
+          {
+            "type": "IDAT",
+            "length": 4096,
+            "crc32": "0x75720f47",
+            "relative_offset": 365710
+          },
+          {
+            "type": "IDAT",
+            "length": 4096,
+            "crc32": "0x248386cd",
+            "relative_offset": 369818
+          },
+          {
+            "type": "IDAT",
+            "length": 4096,
+            "crc32": "0xddd1db2b",
+            "relative_offset": 373926
+          },
+          {
+            "type": "IDAT",
+            "length": 4096,
+            "crc32": "0x6675ed32",
+            "relative_offset": 378034
+          },
+          {
+            "type": "IDAT",
+            "length": 4096,
+            "crc32": "0x8a656ce1",
+            "relative_offset": 382142
+          },
+          {
+            "type": "IDAT",
+            "length": 4096,
+            "crc32": "0x5bdec571",
+            "relative_offset": 386250
+          },
+          {
+            "type": "IDAT",
+            "length": 4096,
+            "crc32": "0x4f33b7fc",
+            "relative_offset": 390358
+          },
+          {
+            "type": "IDAT",
+            "length": 4096,
+            "crc32": "0x0f7c4b18",
+            "relative_offset": 394466
+          },
+          {
+            "type": "IDAT",
+            "length": 4096,
+            "crc32": "0xae8ef40f",
+            "relative_offset": 398574
+          },
+          {
+            "type": "IDAT",
+            "length": 4096,
+            "crc32": "0xc7e120ad",
+            "relative_offset": 402682
+          },
+          {
+            "type": "IDAT",
+            "length": 4096,
+            "crc32": "0xe28eb79c",
+            "relative_offset": 406790
+          },
+          {
+            "type": "IDAT",
+            "length": 4096,
+            "crc32": "0x6552c1ba",
+            "relative_offset": 410898
+          },
+          {
+            "type": "IDAT",
+            "length": 4096,
+            "crc32": "0xed4801dd",
+            "relative_offset": 415006
+          },
+          {
+            "type": "IDAT",
+            "length": 4096,
+            "crc32": "0xc81fbf57",
+            "relative_offset": 419114
+          },
+          {
+            "type": "IDAT",
+            "length": 4096,
+            "crc32": "0x0fa5c2bd",
+            "relative_offset": 423222
+          },
+          {
+            "type": "IDAT",
+            "length": 4096,
+            "crc32": "0x04c36d6b",
+            "relative_offset": 427330
+          },
+          {
+            "type": "IDAT",
+            "length": 4096,
+            "crc32": "0x97162b6f",
+            "relative_offset": 431438
+          },
+          {
+            "type": "IDAT",
+            "length": 4096,
+            "crc32": "0xb1673f12",
+            "relative_offset": 435546
+          },
+          {
+            "type": "IDAT",
+            "length": 4096,
+            "crc32": "0x655b9c39",
+            "relative_offset": 439654
+          },
+          {
+            "type": "IDAT",
+            "length": 4096,
+            "crc32": "0x1e9ea7bf",
+            "relative_offset": 443762
+          },
+          {
+            "type": "IDAT",
+            "length": 4096,
+            "crc32": "0xda2cc2d3",
+            "relative_offset": 447870
+          },
+          {
+            "type": "IDAT",
+            "length": 4096,
+            "crc32": "0xba2e4a78",
+            "relative_offset": 451978
+          },
+          {
+            "type": "IDAT",
+            "length": 4096,
+            "crc32": "0xc0bc237c",
+            "relative_offset": 456086
+          },
+          {
+            "type": "IDAT",
+            "length": 4096,
+            "crc32": "0x2ca89990",
+            "relative_offset": 460194
+          },
+          {
+            "type": "IDAT",
+            "length": 4096,
+            "crc32": "0x209a807d",
+            "relative_offset": 464302
+          },
+          {
+            "type": "IDAT",
+            "length": 4096,
+            "crc32": "0x81d5d792",
+            "relative_offset": 468410
+          },
+          {
+            "type": "IDAT",
+            "length": 4096,
+            "crc32": "0x8e02ac2e",
+            "relative_offset": 472518
+          },
+          {
+            "type": "IDAT",
+            "length": 4096,
+            "crc32": "0xdb1fc295",
+            "relative_offset": 476626
+          },
+          {
+            "type": "IDAT",
+            "length": 4096,
+            "crc32": "0xeb816ea9",
+            "relative_offset": 480734
+          },
+          {
+            "type": "IDAT",
+            "length": 4096,
+            "crc32": "0xc4d208c9",
+            "relative_offset": 484842
+          },
+          {
+            "type": "IDAT",
+            "length": 4096,
+            "crc32": "0x4b579534",
+            "relative_offset": 488950
+          },
+          {
+            "type": "IDAT",
+            "length": 4096,
+            "crc32": "0xf3fbfe61",
+            "relative_offset": 493058
+          },
+          {
+            "type": "IDAT",
+            "length": 4096,
+            "crc32": "0x6e47b103",
+            "relative_offset": 497166
+          },
+          {
+            "type": "IDAT",
+            "length": 4096,
+            "crc32": "0xb6e36b7f",
+            "relative_offset": 501274
+          },
+          {
+            "type": "IDAT",
+            "length": 4096,
+            "crc32": "0x99994d7e",
+            "relative_offset": 505382
+          },
+          {
+            "type": "IDAT",
+            "length": 4096,
+            "crc32": "0x92b85e32",
+            "relative_offset": 509490
+          },
+          {
+            "type": "IDAT",
+            "length": 4096,
+            "crc32": "0x192779cf",
+            "relative_offset": 513598
+          },
+          {
+            "type": "IDAT",
+            "length": 4096,
+            "crc32": "0xf84b554a",
+            "relative_offset": 517706
+          },
+          {
+            "type": "IDAT",
+            "length": 4096,
+            "crc32": "0xf573149c",
+            "relative_offset": 521814
+          },
+          {
+            "type": "IDAT",
+            "length": 4096,
+            "crc32": "0x0729b2e8",
+            "relative_offset": 525922
+          },
+          {
+            "type": "IDAT",
+            "length": 4096,
+            "crc32": "0x7826ad5b",
+            "relative_offset": 530030
+          },
+          {
+            "type": "IDAT",
+            "length": 4096,
+            "crc32": "0xc9451252",
+            "relative_offset": 534138
+          },
+          {
+            "type": "IDAT",
+            "length": 4096,
+            "crc32": "0x3ab2d630",
+            "relative_offset": 538246
+          },
+          {
+            "type": "IDAT",
+            "length": 2707,
+            "crc32": "0xe005d50f",
+            "relative_offset": 542354
+          },
+          {
+            "type": "IEND",
+            "length": 0,
+            "crc32": "0xae426082",
+            "relative_offset": 545073
+          }
+        ],
+        "all_chunk_crc32_valid": true,
+        "boundary": "through zero-length IEND including CRC"
+      }
+    },
+    {
+      "path": "Inter18pt-Regular_006992D0.ttf",
+      "evidence_id": "binary_ttf_006992D0",
+      "kind": "ttf",
+      "section": ".data",
+      "template": false,
+      "encoding": "binary",
+      "length": 342680,
+      "file_offset": "0x006992d0",
+      "rva": "0x0069a2d0",
+      "file_end_exclusive": "0x006ecd68",
+      "sha256": "3e5f90a0138b38de4cf4d779ad78391974ea1df776b9164842bdcbb60ce383c5",
+      "validation": {
+        "names": {
+          "0": "Copyright 2016 The Inter Project Authors (https://github.com/rsms/inter)",
+          "1": "Inter 18pt",
+          "2": "Regular",
+          "4": "Inter 18pt Regular",
+          "6": "Inter18pt-Regular",
+          "13": "This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: https://openfontlicense.org",
+          "14": "https://openfontlicense.org",
+          "16": "Inter 18pt",
+          "17": "Regular"
+        },
+        "glyph_count": 2926,
+        "unicode_cmap_entries": 2849,
+        "units_per_em": 2048,
+        "tables": [
+          {
+            "tag": "GDEF",
+            "offset": 600,
+            "length": 1018,
+            "checksum": "0x66d660d7"
+          },
+          {
+            "tag": "GPOS",
+            "offset": 110356,
+            "length": 94562,
+            "checksum": "0x5d90faff"
+          },
+          {
+            "tag": "GSUB",
+            "offset": 27564,
+            "length": 24468,
+            "checksum": "0xd4988b6d"
+          },
+          {
+            "tag": "OS/2",
+            "offset": 504,
+            "length": 96,
+            "checksum": "0x17696568"
+          },
+          {
+            "tag": "STAT",
+            "offset": 408,
+            "length": 94,
+            "checksum": "0x56ab41f7"
+          },
+          {
+            "tag": "cmap",
+            "offset": 52032,
+            "length": 25738,
+            "checksum": "0x4d8d9df1"
+          },
+          {
+            "tag": "gasp",
+            "offset": 276,
+            "length": 8,
+            "checksum": "0x00000010"
+          },
+          {
+            "tag": "glyf",
+            "offset": 204920,
+            "length": 137758,
+            "checksum": "0xd675d8c0"
+          },
+          {
+            "tag": "head",
+            "offset": 352,
+            "length": 54,
+            "checksum": "0x32ba5ab2"
+          },
+          {
+            "tag": "hhea",
+            "offset": 316,
+            "length": 36,
+            "checksum": "0x16761ebd"
+          },
+          {
+            "tag": "hmtx",
+            "offset": 4152,
+            "length": 11704,
+            "checksum": "0x2dc0a400"
+          },
+          {
+            "tag": "loca",
+            "offset": 15856,
+            "length": 11708,
+            "checksum": "0x0b3becd6"
+          },
+          {
+            "tag": "maxp",
+            "offset": 284,
+            "length": 32,
+            "checksum": "0x0b8900f6"
+          },
+          {
+            "tag": "name",
+            "offset": 1620,
+            "length": 2530,
+            "checksum": "0x776d9f9a"
+          },
+          {
+            "tag": "post",
+            "offset": 77772,
+            "length": 32584,
+            "checksum": "0xcf8a5ef8"
+          },
+          {
+            "tag": "prep",
+            "offset": 268,
+            "length": 7,
+            "checksum": "0x68068c85"
+          }
+        ],
+        "all_table_checksums_valid": true,
+        "whole_font_checksum": "0xb1b0afba",
+        "all_tables_decompiled": true,
+        "boundary": "maximum declared table extent including zero alignment padding",
+        "freetype_render": {
+          "sample": "Solace 0123",
+          "pixel_size": 24,
+          "mask_size": [
+            133,
+            17
+          ],
+          "mask_bbox": [
+            1,
+            0,
+            132,
+            17
+          ],
+          "mask_sha256": "254a3c481e7b3c26e19a3378b23ce5984debcda439a091f264beb763de4710c2"
+        }
+      }
+    },
+    {
+      "path": "Inter18pt-Bold_006ECD70.ttf",
+      "evidence_id": "binary_ttf_006ECD70",
+      "kind": "ttf",
+      "section": ".data",
+      "template": false,
+      "encoding": "binary",
+      "length": 344152,
+      "file_offset": "0x006ecd70",
+      "rva": "0x006edd70",
+      "file_end_exclusive": "0x00740dc8",
+      "sha256": "30a5c45ec23a594af2effe8d3b589ad22c2dede27441050a1604d00ff82fd0dc",
+      "validation": {
+        "names": {
+          "0": "Copyright 2016 The Inter Project Authors (https://github.com/rsms/inter)",
+          "1": "Inter 18pt",
+          "2": "Bold",
+          "4": "Inter 18pt Bold",
+          "6": "Inter18pt-Bold",
+          "13": "This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: https://openfontlicense.org",
+          "14": "https://openfontlicense.org",
+          "16": "Inter 18pt",
+          "17": "Bold"
+        },
+        "glyph_count": 2926,
+        "unicode_cmap_entries": 2849,
+        "units_per_em": 2048,
+        "tables": [
+          {
+            "tag": "GDEF",
+            "offset": 596,
+            "length": 1018,
+            "checksum": "0x66d660d7"
+          },
+          {
+            "tag": "GPOS",
+            "offset": 110332,
+            "length": 94962,
+            "checksum": "0xa59f969f"
+          },
+          {
+            "tag": "GSUB",
+            "offset": 27540,
+            "length": 24468,
+            "checksum": "0xd4988b6d"
+          },
+          {
+            "tag": "OS/2",
+            "offset": 500,
+            "length": 96,
+            "checksum": "0x189565ab"
+          },
+          {
+            "tag": "STAT",
+            "offset": 408,
+            "length": 90,
+            "checksum": "0x57da4063"
+          },
+          {
+            "tag": "cmap",
+            "offset": 52008,
+            "length": 25738,
+            "checksum": "0x4d8d9df1"
+          },
+          {
+            "tag": "gasp",
+            "offset": 276,
+            "length": 8,
+            "checksum": "0x00000010"
+          },
+          {
+            "tag": "glyf",
+            "offset": 205296,
+            "length": 138855,
+            "checksum": "0xb7561064"
+          },
+          {
+            "tag": "head",
+            "offset": 352,
+            "length": 54,
+            "checksum": "0x325a5aa6"
+          },
+          {
+            "tag": "hhea",
+            "offset": 316,
+            "length": 36,
+            "checksum": "0x16151d72"
+          },
+          {
+            "tag": "hmtx",
+            "offset": 4128,
+            "length": 11704,
+            "checksum": "0xa823bdbf"
+          },
+          {
+            "tag": "loca",
+            "offset": 15832,
+            "length": 11708,
+            "checksum": "0x0b51afe2"
+          },
+          {
+            "tag": "maxp",
+            "offset": 284,
+            "length": 32,
+            "checksum": "0x0b8900f6"
+          },
+          {
+            "tag": "name",
+            "offset": 1616,
+            "length": 2512,
+            "checksum": "0x75c99db1"
+          },
+          {
+            "tag": "post",
+            "offset": 77748,
+            "length": 32584,
+            "checksum": "0xcfac5f2d"
+          },
+          {
+            "tag": "prep",
+            "offset": 268,
+            "length": 7,
+            "checksum": "0x68068c85"
+          }
+        ],
+        "all_table_checksums_valid": true,
+        "whole_font_checksum": "0xb1b0afba",
+        "all_tables_decompiled": true,
+        "boundary": "maximum declared table extent including zero alignment padding",
+        "freetype_render": {
+          "sample": "Solace 0123",
+          "pixel_size": 24,
+          "mask_size": [
+            139,
+            17
+          ],
+          "mask_bbox": [
+            1,
+            0,
+            138,
+            17
+          ],
+          "mask_sha256": "594efe57c6a8f1e88fd1e39ebd1666992f2b8a7762219ce932563930515dc652"
+        }
+      }
+    },
+    {
+      "path": "SmallestPixel-7_00740DD0.ttf",
+      "evidence_id": "binary_ttf_00740DD0",
+      "kind": "ttf",
+      "section": ".data",
+      "template": false,
+      "encoding": "binary",
+      "length": 25600,
+      "file_offset": "0x00740dd0",
+      "rva": "0x00741dd0",
+      "file_end_exclusive": "0x007471d0",
+      "sha256": "0e71338a9ae45df2ede080567cfab831627bac9a83be601521ddbace4cbed11e",
+      "validation": {
+        "names": {
+          "0": "Copyright (c) 2013 by Style-7. All rights reserved. http://www.styleseven.com",
+          "1": "Smallest Pixel-7",
+          "2": "Regular",
+          "4": "Smallest Pixel-7",
+          "6": "SmallestPixel-7",
+          "13": "Freeware for personal using only.",
+          "14": null,
+          "16": null,
+          "17": null
+        },
+        "glyph_count": 316,
+        "unicode_cmap_entries": 312,
+        "units_per_em": 1000,
+        "tables": [
+          {
+            "tag": "OS/2",
+            "offset": 328,
+            "length": 96,
+            "checksum": "0x64b3fc7d"
+          },
+          {
+            "tag": "VDMX",
+            "offset": 1688,
+            "length": 1504,
+            "checksum": "0x68606ff7"
+          },
+          {
+            "tag": "cmap",
+            "offset": 3192,
+            "length": 1328,
+            "checksum": "0x7a5f8023"
+          },
+          {
+            "tag": "gasp",
+            "offset": 25592,
+            "length": 8,
+            "checksum": "0xffff0001"
+          },
+          {
+            "tag": "glyf",
+            "offset": 4520,
+            "length": 17684,
+            "checksum": "0xbdd21221"
+          },
+          {
+            "tag": "head",
+            "offset": 204,
+            "length": 54,
+            "checksum": "0xfe1a92cf"
+          },
+          {
+            "tag": "hhea",
+            "offset": 260,
+            "length": 36,
+            "checksum": "0x07a005bb"
+          },
+          {
+            "tag": "hmtx",
+            "offset": 424,
+            "length": 1264,
+            "checksum": "0x66760000"
+          },
+          {
+            "tag": "loca",
+            "offset": 22204,
+            "length": 634,
+            "checksum": "0xef71de0c"
+          },
+          {
+            "tag": "maxp",
+            "offset": 296,
+            "length": 32,
+            "checksum": "0x01410033"
+          },
+          {
+            "tag": "name",
+            "offset": 22840,
+            "length": 1069,
+            "checksum": "0xff478a55"
+          },
+          {
+            "tag": "post",
+            "offset": 23912,
+            "length": 1678,
+            "checksum": "0x7cfaa8a0"
+          }
+        ],
+        "all_table_checksums_valid": true,
+        "whole_font_checksum": "0xb1b0afba",
+        "all_tables_decompiled": true,
+        "boundary": "maximum declared table extent including zero alignment padding",
+        "freetype_render": {
+          "sample": "Solace 0123",
+          "pixel_size": 24,
+          "mask_size": [
+            129,
+            12
+          ],
+          "mask_bbox": [
+            0,
+            0,
+            127,
+            12
+          ],
+          "mask_sha256": "ab0a5387d1120f69b9c51c9c68766f9f23cdf788ff09589250ef28d883c127a0"
+        }
+      }
+    },
+    {
+      "path": "Inter18pt-SemiBold_00748940.ttf",
+      "evidence_id": "binary_ttf_00748940",
+      "kind": "ttf",
+      "section": ".data",
+      "template": false,
+      "encoding": "binary",
+      "length": 343828,
+      "file_offset": "0x00748940",
+      "rva": "0x00749940",
+      "file_end_exclusive": "0x0079c854",
+      "sha256": "a8b276e25bb13dfa39cface35cc92aff9a7d5f1b96143f0df8c66351ccfed2a4",
+      "validation": {
+        "names": {
+          "0": "Copyright 2016 The Inter Project Authors (https://github.com/rsms/inter)",
+          "1": "Inter 18pt SemiBold",
+          "2": "Regular",
+          "4": "Inter 18pt SemiBold",
+          "6": "Inter18pt-SemiBold",
+          "13": "This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: https://openfontlicense.org",
+          "14": "https://openfontlicense.org",
+          "16": "Inter 18pt",
+          "17": "SemiBold"
+        },
+        "glyph_count": 2926,
+        "unicode_cmap_entries": 2849,
+        "units_per_em": 2048,
+        "tables": [
+          {
+            "tag": "GDEF",
+            "offset": 596,
+            "length": 1018,
+            "checksum": "0x66d660d7"
+          },
+          {
+            "tag": "GPOS",
+            "offset": 110356,
+            "length": 95034,
+            "checksum": "0x108fe27f"
+          },
+          {
+            "tag": "GSUB",
+            "offset": 27564,
+            "length": 24468,
+            "checksum": "0xd4988b6d"
+          },
+          {
+            "tag": "OS/2",
+            "offset": 500,
+            "length": 96,
+            "checksum": "0x183165a6"
+          },
+          {
+            "tag": "STAT",
+            "offset": 408,
+            "length": 90,
+            "checksum": "0x57d93fff"
+          },
+          {
+            "tag": "cmap",
+            "offset": 52032,
+            "length": 25738,
+            "checksum": "0x4d8d9df1"
+          },
+          {
+            "tag": "gasp",
+            "offset": 276,
+            "length": 8,
+            "checksum": "0x00000010"
+          },
+          {
+            "tag": "glyf",
+            "offset": 205392,
+            "length": 138435,
+            "checksum": "0x9617450d"
+          },
+          {
+            "tag": "head",
+            "offset": 352,
+            "length": 54,
+            "checksum": "0x32795aaa"
+          },
+          {
+            "tag": "hhea",
+            "offset": 316,
+            "length": 36,
+            "checksum": "0x16351de0"
+          },
+          {
+            "tag": "hmtx",
+            "offset": 4152,
+            "length": 11704,
+            "checksum": "0xd4aa0ac6"
+          },
+          {
+            "tag": "loca",
+            "offset": 15856,
+            "length": 11708,
+            "checksum": "0x0b48b7a9"
+          },
+          {
+            "tag": "maxp",
+            "offset": 284,
+            "length": 32,
+            "checksum": "0x0b8900f6"
+          },
+          {
+            "tag": "name",
+            "offset": 1616,
+            "length": 2536,
+            "checksum": "0x7498a002"
+          },
+          {
+            "tag": "post",
+            "offset": 77772,
+            "length": 32584,
+            "checksum": "0xcfa15f1b"
+          },
+          {
+            "tag": "prep",
+            "offset": 268,
+            "length": 7,
+            "checksum": "0x68068c85"
+          }
+        ],
+        "all_table_checksums_valid": true,
+        "whole_font_checksum": "0xb1b0afba",
+        "all_tables_decompiled": true,
+        "boundary": "maximum declared table extent including zero alignment padding",
+        "freetype_render": {
+          "sample": "Solace 0123",
+          "pixel_size": 24,
+          "mask_size": [
+            140,
+            17
+          ],
+          "mask_bbox": [
+            1,
+            0,
+            139,
+            17
+          ],
+          "mask_sha256": "c4eaa91cdcc8d2bcca6195ead69a0a254e77bd384be45aff34220fba4e73bd6a"
+        }
+      }
+    },
+    {
+      "path": "NotoSansMath-Regular_0079C860.ttf",
+      "evidence_id": "binary_ttf_0079C860",
+      "kind": "ttf",
+      "section": ".data",
+      "template": false,
+      "encoding": "binary",
+      "length": 1004120,
+      "file_offset": "0x0079c860",
+      "rva": "0x0079d860",
+      "file_end_exclusive": "0x00891ab8",
+      "sha256": "b4a1dfdbfa13b4755e5eac20cb25c1d17ed5a745ceb89639595e8cf45a2b1e07",
+      "validation": {
+        "names": {
+          "0": "Copyright 2022 Google LLC. All Rights Reserved.",
+          "1": "Noto Sans Math",
+          "2": "Regular",
+          "4": "Noto Sans Math Regular",
+          "6": "NotoSansMath-Regular",
+          "13": "This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: https://openfontlicense.org",
+          "14": "https://openfontlicense.org",
+          "16": null,
+          "17": null
+        },
+        "glyph_count": 5130,
+        "unicode_cmap_entries": 3033,
+        "units_per_em": 1000,
+        "tables": [
+          {
+            "tag": "GDEF",
+            "offset": 880,
+            "length": 760,
+            "checksum": "0x17d717d3"
+          },
+          {
+            "tag": "GPOS",
+            "offset": 97048,
+            "length": 31538,
+            "checksum": "0x82daad33"
+          },
+          {
+            "tag": "GSUB",
+            "offset": 6832,
+            "length": 8258,
+            "checksum": "0x1c7d1888"
+          },
+          {
+            "tag": "MATH",
+            "offset": 15092,
+            "length": 20204,
+            "checksum": "0xf9a44318"
+          },
+          {
+            "tag": "OS/2",
+            "offset": 432,
+            "length": 96,
+            "checksum": "0x8ac828c1"
+          },
+          {
+            "tag": "cmap",
+            "offset": 76340,
+            "length": 20708,
+            "checksum": "0xccf400dc"
+          },
+          {
+            "tag": "cvt ",
+            "offset": 528,
+            "length": 146,
+            "checksum": "0x0b0a22f0"
+          },
+          {
+            "tag": "fpgm",
+            "offset": 3236,
+            "length": 3596,
+            "checksum": "0x622f017e"
+          },
+          {
+            "tag": "gasp",
+            "offset": 300,
+            "length": 8,
+            "checksum": "0x00000010"
+          },
+          {
+            "tag": "glyf",
+            "offset": 189756,
+            "length": 814363,
+            "checksum": "0x622ec3ce"
+          },
+          {
+            "tag": "head",
+            "offset": 376,
+            "length": 54,
+            "checksum": "0x2f017bcb"
+          },
+          {
+            "tag": "hhea",
+            "offset": 340,
+            "length": 36,
+            "checksum": "0x11572347"
+          },
+          {
+            "tag": "hmtx",
+            "offset": 35296,
+            "length": 20520,
+            "checksum": "0xa42cc284"
+          },
+          {
+            "tag": "loca",
+            "offset": 55816,
+            "length": 20524,
+            "checksum": "0x8890a946"
+          },
+          {
+            "tag": "maxp",
+            "offset": 308,
+            "length": 32,
+            "checksum": "0x208b1bad"
+          },
+          {
+            "tag": "name",
+            "offset": 1640,
+            "length": 1594,
+            "checksum": "0xb38ccd1c"
+          },
+          {
+            "tag": "post",
+            "offset": 128588,
+            "length": 61165,
+            "checksum": "0x383cadc7"
+          },
+          {
+            "tag": "prep",
+            "offset": 676,
+            "length": 203,
+            "checksum": "0x7a04a6f2"
+          }
+        ],
+        "all_table_checksums_valid": true,
+        "whole_font_checksum": "0xb1b0afba",
+        "all_tables_decompiled": true,
+        "boundary": "maximum declared table extent including zero alignment padding",
+        "freetype_render": {
+          "sample": "Solace 0123",
+          "pixel_size": 24,
+          "mask_size": [
+            135,
+            18
+          ],
+          "mask_bbox": [
+            1,
+            0,
+            134,
+            18
+          ],
+          "mask_sha256": "feef12cb9fe08848417077a175eee3fdd77cbf5ed53dcc1df1096ae03867b537"
+        }
+      }
+    }
+  ],
+  "limits": [
+    "Bounded raw-signature search of this pinned PE file; no decrypting or unpacking.",
+    "Magic bytes alone are never accepted as an asset.",
+    "No URL from the DLL is accessed and no private resource package is downloaded.",
+    "Names come from font name tables; image filenames state offsets, not inferred UI roles.",
+    "Successful parsing does not identify every runtime resource use or prove complete asset recovery.",
+    "GIF, DDS, TTC, WOFF, WOFF2, OGG and FLAC are signature-counted only; none are accepted without decoders."
+  ]
+}

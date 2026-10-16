@@ -1,0 +1,15 @@
+{
+  "version": 6,
+  "configurePresets": [
+    {
+      "name": "windows-vs2026",
+      "displayName": "Windows x64 / Visual Studio 2026",
+      "generator": "Visual Studio 18 2026",
+      "architecture": "x64",
+      "binaryDir": "${sourceDir}/build",
+      "cacheVariables": {"BUILD_TESTING": "ON"}
+    }
+  ],
+  "buildPresets": [{"name": "release", "configurePreset": "windows-vs2026", "configuration": "Release"}],
+  "testPresets": [{"name": "release", "configurePreset": "windows-vs2026", "configuration": "Release", "output": {"outputOnFailure": true}}]
+}

@@ -1,0 +1,43 @@
+# Publish only the maintained source projects and repository documentation.
+/*
+!/.gitignore
+!/.gitattributes
+!/README.md
+!/LICENSE
+!/THIRD_PARTY_NOTICES.md
+!/cpp-reconstruction/
+!/source-update-kit/
+!/config-tools/
+
+# Local environments, generated outputs, and machine-specific evidence.
+**/.venv/
+**/__pycache__/
+**/.vs/
+**/build/
+**/build-*/
+**/dist/
+**/evidence/
+**/verification/
+**/binary_asset_deps/
+**/BUILD_PROOF.json
+*.pyc
+*.pyo
+*.obj
+*.pdb
+*.dll
+*.exe
+*.lib
+*.zip
+*.whl
+*.log
+*.user
+*.VC.db
+.env
+.env.*
+
+# Original sample resources stay local; publish only their extraction manifests.
+/cpp-reconstruction/resources/sources/
+/cpp-reconstruction/resources/binary/*
+!/cpp-reconstruction/resources/binary/manifest.json
+/source-update-kit/vendor/
+/source-update-kit/tests/validation-current.json

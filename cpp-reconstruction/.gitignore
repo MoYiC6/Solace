@@ -1,0 +1,5 @@
+/build/
+/.vs/
+*.user
+*.VC.db
+__pycache__/

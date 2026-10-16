@@ -1,0 +1,232 @@
+{
+  "name": "hvh_awp_tuned",
+  "status": "proposed-starting-values-not-match-tested",
+  "assumption": "Community HvH, AWP: reduce normal firing thresholds; keep autoscope while equalizing normal and both scoped camera FOVs. Does not guarantee airborne firing or accuracy.",
+  "global": [
+    {
+      "category": "ragebot",
+      "name": "enabled",
+      "type_id": 0,
+      "value": {
+        "v": true,
+        "b": null
+      }
+    },
+    {
+      "category": "ragebot - general",
+      "name": "autowall",
+      "type_id": 0,
+      "value": {
+        "v": true,
+        "b": null
+      }
+    },
+    {
+      "category": "anti aim",
+      "name": "anti aim",
+      "type_id": 0,
+      "value": {
+        "v": true,
+        "b": null
+      }
+    },
+    {
+      "category": "anti aim",
+      "name": "pitch",
+      "type_id": 3,
+      "value": 1
+    },
+    {
+      "category": "anti aim",
+      "name": "yaw mode",
+      "type_id": 3,
+      "value": 0
+    },
+    {
+      "category": "anti aim",
+      "name": "jitter",
+      "type_id": 0,
+      "value": {
+        "v": false,
+        "b": null
+      }
+    },
+    {
+      "category": "anti aim",
+      "name": "avoid backstab",
+      "type_id": 0,
+      "value": {
+        "v": true,
+        "b": null
+      }
+    },
+    {
+      "category": "peek assistance",
+      "name": "quick peek",
+      "type_id": 0,
+      "value": {
+        "v": false,
+        "b": {
+          "k": 86,
+          "m": 1,
+          "l": true
+        }
+      }
+    },
+    {
+      "category": "peek assistance",
+      "name": "duck peek",
+      "type_id": 0,
+      "value": {
+        "v": false,
+        "b": {
+          "k": 164,
+          "m": 1,
+          "l": true
+        }
+      }
+    },
+    {
+      "category": "camera",
+      "name": "custom fov",
+      "type_id": 0,
+      "value": {
+        "v": true,
+        "b": null
+      }
+    },
+    {
+      "category": "camera",
+      "name": "fov",
+      "type_id": 4,
+      "value": 90.0
+    },
+    {
+      "category": "camera",
+      "name": "scoped fov override",
+      "type_id": 0,
+      "value": {
+        "v": true,
+        "b": null
+      }
+    },
+    {
+      "category": "camera",
+      "name": "scoped fov",
+      "type_id": 4,
+      "value": 90.0
+    },
+    {
+      "category": "camera",
+      "name": "scoped fov phase 2",
+      "type_id": 4,
+      "value": 90.0
+    },
+    {
+      "category": "removals",
+      "name": "remove scope",
+      "type_id": 0,
+      "value": {
+        "v": true,
+        "b": null
+      }
+    }
+  ],
+  "common": {
+    "silent": {
+      "v": true,
+      "b": null
+    },
+    "no spread": {
+      "v": false,
+      "b": null
+    },
+    "force shot on ground": {
+      "v": false,
+      "b": null
+    },
+    "force shot aggressive": {
+      "v": false,
+      "b": null
+    },
+    "autostop": {
+      "v": true,
+      "b": null
+    },
+    "autostop modes": [
+      true,
+      true,
+      false,
+      false
+    ],
+    "limiters": {
+      "v": false,
+      "b": null
+    },
+    "max fov": 180.0,
+    "hitboxes": [
+      true,
+      true,
+      true,
+      false,
+      false,
+      false
+    ]
+  },
+  "weapons": {
+    "general": {
+      "hit chance": 60,
+      "min damage": 30,
+      "point scale": 65.0,
+      "autoscope": {
+        "v": false,
+        "b": null
+      }
+    },
+    "ssg08": {
+      "hit chance": 70,
+      "min damage": 70,
+      "point scale": 75.0,
+      "autoscope": {
+        "v": true,
+        "b": null
+      }
+    },
+    "awp": {
+      "hit chance": 65,
+      "min damage": 70,
+      "point scale": 70.0,
+      "autoscope": {
+        "v": true,
+        "b": null
+      }
+    },
+    "g3sg1": {
+      "hit chance": 65,
+      "min damage": 35,
+      "point scale": 70.0,
+      "autoscope": {
+        "v": true,
+        "b": null
+      }
+    },
+    "scar20": {
+      "hit chance": 65,
+      "min damage": 35,
+      "point scale": 70.0,
+      "autoscope": {
+        "v": true,
+        "b": null
+      }
+    },
+    "deagle": {
+      "hit chance": 65,
+      "min damage": 40,
+      "point scale": 70.0,
+      "autoscope": {
+        "v": false,
+        "b": null
+      }
+    }
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "name": "hvh_public_reference",
+  "status": "public-guide-values-selected-not-match-tested-in-solace",
+  "source": {
+    "url": "https://forum.neverlose.cc/t/guide-to-creating-your-own-cfg-ru-eng/587558",
+    "author": "gan15off",
+    "published": "2026-02-10",
+    "author_reported_update": "2026-06-27",
+    "software": "Neverlose CS2",
+    "selection": "AWP hitchance 70 selected from 70-85, minimum damage 100. SCAR hitchance 60 selected from 55-65, minimum damage 35 selected from 30-38. Autoscope enabled and aim FOV 180 for both."
+  },
+  "assumption": "User requested these public reference values. Equivalent runtime behavior across Neverlose and Solace has not been verified. AWP minimum damage 100 filters lower-damage shots; this is not a fix for airborne or wallbang firing. Other settings are inherited unchanged from hvh_awp_tuned.",
+  "global": [],
+  "common": {
+    "autoscope": {"v": true, "b": null},
+    "max fov": 180.0
+  },
+  "weapons": {
+    "awp": {"hit chance": 70, "min damage": 100},
+    "scar20": {"hit chance": 60, "min damage": 35}
+  }
+}

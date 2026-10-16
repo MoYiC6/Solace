@@ -1,0 +1,60 @@
+{
+  "name": "Solace original 8e60e107 / CS2 engine build 14191",
+  "source_sha256": "8e60e1071acd82b08dfd2bbc41b1155e10cfd113075f0ff40ed6372c2f5f232b",
+  "client_sha256": "659940c1db362ed981d1df10637cec8c2a3d99409b77fc3b73e435e4649e36b0",
+  "game_build": 14191,
+  "parameters": {
+    "ready_stage": 12,
+    "entity_index_limit": "0x4000",
+    "ready_mask": 1
+  },
+  "layout": {
+    "original_section_count": 9,
+    "original_size": "0x8B2E00",
+    "image_base": "0x180000000",
+    "code_rva": "0x8F3000",
+    "state_rva": "0x8F4000",
+    "callback_instruction_rva": "0x2308B0",
+    "callback_original_hex": "488d05f9780000488945c8",
+    "callback_displacement_offset": 3,
+    "callback_instruction_length": 7,
+    "address_record_count": 159
+  },
+  "symbols": {
+    "original_frame": "0x2381B0",
+    "entity_lookup": "0x2ED090",
+    "entity_add": "0x2EC0F0",
+    "entity_membership": "0x2ED030",
+    "entity_cache": "0x8BB240",
+    "entity_system_slot": "0x8CA358",
+    "loading_gate": "0x8C7443",
+    "frame_ready": "0x8C7442",
+    "controller": "0x8C2E00",
+    "pawn": "0x8C2E08",
+    "observer_pawn": "0x8C2E10",
+    "context_lock": "0x8C2E30",
+    "acquire_shared_iat": "0x655000",
+    "release_shared_iat": "0x655400"
+  },
+  "state_layout": {
+    "status": 0,
+    "nonzero_entity_count": 4,
+    "enumerated_index_limit": 8,
+    "controller": 16,
+    "marker": 32
+  },
+  "status_meanings": {
+    "0": "waiting-for-initial-ready-frame",
+    "1": "initial-registration-started",
+    "2": "complete-local-controller-confirmed",
+    "3": "failed-local-controller-missing"
+  },
+  "state_marker": "SOLACE_ENTITY_BOOTSTRAP_V1",
+  "assembly": "../src/entity_bootstrap.asm",
+  "unwind": {
+    "prologue_prefix_hex": "53565741544883ec28",
+    "unwind_info_hex": "01090500094205c00370026001300000"
+  },
+  "scope": "Register already existing entities once on the first ready stage12. Uses original Solace lookup, insertion, classification and locking.",
+  "evidence_summary": "Original in-match load: cache count 0. Original still loaded after map re-entry: count 31, ten controllers, local membership true, user observed ESP restored. This profile describes the pinned DLL, not arbitrary CS2 offsets."
+}
